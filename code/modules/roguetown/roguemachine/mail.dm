@@ -171,7 +171,7 @@
 				else
 					visible_message("<span class='warning'>[user] sends something.</span>")
 					playsound(loc, 'sound/misc/disposalflush.ogg', 100, FALSE, -1)
-					send_ooc_note("New letter from <b>[sentfrom].</b>", name = send2place)
+					send_ooc_note("<span class='big bold'><font color= '#1ea725'>New letter from [sentfrom].", name = send2place)
 					return
 	if(istype(P, /obj/item/roguecoin))
 		if(coin_loaded)
